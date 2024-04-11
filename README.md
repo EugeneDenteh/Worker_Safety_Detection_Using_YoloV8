@@ -21,7 +21,8 @@ This repository houses a YOLOv8 classification model tailored to bolster worker 
 To use this model, follow these steps:
 1. Clone the repository: `git clone https://github.com/EugeneDenteh/Worker_Safety_Detection_Using_YoloV8.git`
 2. Install dependencies: `pip install -r requirements.txt`
-3. Run the detection script: `python detect_worker_safety.py`
+3. Place the `best.pt` file in the root directory of the repository. This can be found here (https://drive.google.com/file/d/116nVZJDYAmUJ9IfP0jJJIu_RPOZ8O6w6/view?usp=drive_link)
+4. Run the detection script.
 
 ## Usage
 ```python
