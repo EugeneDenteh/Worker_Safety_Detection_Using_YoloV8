@@ -26,16 +26,16 @@ To use this model, follow these steps:
 
 ## Usage
 ```python
-from worker_safety_detection import YOLOv8WorkerSafetyDetector
 
 # Initialize detector
-detector = YOLOv8WorkerSafetyDetector()
+# Load a pretrained YOLOv8n model
+model = YOLO('/content/runs/detect/train2/weights/best.pt')
 
 # Load image or video
 image = "path/to/image.jpg"
 
 # Detect worker safety
-results = detector.detect(image)
+results = model.predict(image)
 
 # Process results
 for result in results:
